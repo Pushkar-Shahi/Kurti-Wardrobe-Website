@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+<title>Kurti Collection</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="brand">Ananya <em>Couture</em></div>
+  <div class="badge">29 Pieces</div>
+</div>
+<div class="grid" id="grid"></div>
+<div class="overlay" id="ov"></div>
+<div class="panel" id="panel">
+  <div class="handle"></div>
+  <div class="tabs">
+    <button class="tab on" id="t2d">2D View</button>
+    <button class="tab" id="t3d">&#10022; 3D View</button>
+  </div>
+  <div class="pscroll" id="psc">
+    <div class="vwrap" id="vw">
+      <div class="persp" id="persp">
+        <div class="tcard" id="tc">
+          <img class="mimg" id="mi" src="" alt="">
+          <div class="dlayer" id="dl">
+            <div class="dshim" id="ds"></div>
+            <div class="dvig"></div>
+          </div>
+        </div>
+      </div>
+      <div class="thint" id="th">&#10022; Move to tilt &middot; Tap to spin</div>
+      <div class="gyro-badge" id="gb">&#8635; Tilt your phone</div>
+    </div>
+    <div class="dets" id="dets"></div>
+    <div style="height:70px"></div>
+  </div>
+  <div class="cta" id="cta"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
